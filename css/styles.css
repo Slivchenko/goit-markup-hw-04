@@ -479,7 +479,6 @@ background-color: #2E2F42;
    height: 40px;
    border-radius: 50%;
    
-
 }
 
 .social-list-instagram {
@@ -504,4 +503,10 @@ background-color: #2E2F42;
 
 .social-icon {
    display: flex;
+   background-color: #4D5AE5;
+      justify-content: center;
+      align-items: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
 }
