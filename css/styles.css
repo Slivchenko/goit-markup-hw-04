@@ -498,7 +498,6 @@ background-color: #2E2F42;
    background-color: #4D5AE5;
 }
 .social-list-icon {
- 
   fill: #f4f4fd;
 }
 
@@ -509,4 +508,22 @@ background-color: #2E2F42;
 
 .company-logo {
    display: flex;
+   justify-content: center;
+   gap: 24px;
+}
+.company-link {
+display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 16px 32px;
+   width: 168px;
+   height: 88px;
+   border-radius: 4px;
+  
+   border: 1px solid #8E8F99;
+      border-color: #8E8F99;
+}
+
+.company-list-icon {
+   fill: #AFB1B8;
 }
