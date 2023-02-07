@@ -49,7 +49,7 @@ img {
 .list-mail {
    text-decoration: none;
 }
-.logo-footer :hover {
+.logo-footer:hover {
    color: #2E2F42;
 }
 .container{
@@ -136,8 +136,7 @@ background-color: #404BBF;
    font-style: normal;
    font-size: 16px;
       line-height: 1.5;
-      text-decoration: none;
-      
+      text-decoration: none;   
  }
 
  .tel-list {
@@ -147,12 +146,24 @@ background-color: #404BBF;
    font-size: 16px;
    line-height: 1.5;
    text-decoration: none;
-   margin-left: 40px;
-
  }
- .site-nav :hover,
-  .site-nav :focus
+
+
+.site-nav:hover,
+.site-nav:focus {
+   color: var(--accent-color);
+}
+
+
+
+ .tel-list:hover,
+  .tel-list:focus
  {
+    color: var(--accent-color);
+ }
+
+ .list-mail:hover,
+ .list-mail:focus {
     color: var(--accent-color);
  }
 
@@ -221,7 +232,6 @@ background-color: #404BBF;
     margin-bottom: 72px;
  }
   .text-team-title{
- padding-top: 32px;
  padding-bottom: 32px;
 border-bottom-right-radius: 4px;
 border-bottom-left-radius: 4px;
@@ -324,7 +334,6 @@ font-size: 16px;
     font-weight: 500;
    font-size: 16px;
     line-height: 1.5;
-   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
       border-radius: 4px;
       padding: 12px 24px 12px 24px;
 
@@ -409,8 +418,18 @@ font-size: 16px;
 
 }
 
-.list-portfolio :hover {
-   box-shadow: 8px 1px 6px 0px rgba(46, 47, 66, 0.08);
+.foto-link-portfolio:hover,
+.foto-link-portfolio:focus
+
+{
+   background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), 
+      url(../images/banking.jpg);
+      background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+      background-blend-mode: soft-light, normal;
+      mix-blend-mode: normal;
+      
 }
 .potfolio-img{
   margin-top: 72px;
@@ -476,7 +495,9 @@ background-color: #2E2F42;
    
 }
 
-.social-list-item{
+.social-link:hover,
+.social-link:focus
+ {background: #8E8F99;
    
 }
 
@@ -495,8 +516,8 @@ background-color: #2E2F42;
   fill: #f4f4fd;
 }
 
-.social-list-icon:hover,
-.social-list-icon:focus {
+.social-icon:hover,
+.social-icon:focus {
    fill: #BDC3C7;
 }
 
@@ -513,10 +534,18 @@ display: flex;
    width: 168px;
    height: 88px;
    border-radius: 4px;
-  
    border: 1px solid #8E8F99;
       border-color: #8E8F99;
+  
 }
+
+.company-link:hover,
+.company-link:focus {
+  
+}
+
+
+
 
 .company-list-icon {
    fill: #AFB1B8;
@@ -541,10 +570,11 @@ display: flex;
 }
 
 .social-media {
+   
    width: 208px;
    height: 80px;
    gap: 120px;
-  margin-right: 551px;
+  margin-left: 120px;
  
 }
 
@@ -556,4 +586,12 @@ display: flex;
 }
 .social-list-icon-techno {
    fill: #2E2F42;
+}
+
+.footer-cont {
+
+}
+
+.container-footer {
+   display: flex;
 }
