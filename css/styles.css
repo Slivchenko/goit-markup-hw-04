@@ -418,8 +418,8 @@ font-size: 16px;
 
 }
 
-.foto-link-portfolio:hover,
-.foto-link-portfolio:focus
+.foto-link:hover,
+.foto-link:focus
 
 {
    background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1)), 
@@ -430,6 +430,11 @@ font-size: 16px;
       background-blend-mode: soft-light, normal;
       mix-blend-mode: normal;
       
+}
+
+
+.foto-link-portfolio {
+   padding-top: 48px;
 }
 .potfolio-img{
   margin-top: 72px;
