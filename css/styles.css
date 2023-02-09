@@ -431,7 +431,7 @@ background: var(--accent-color);
    display: flex;
    margin-top: 72px;
    flex-wrap: wrap;
-   gap: 24px;
+   gap: 20px;
 
 }
 
